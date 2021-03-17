@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gQiZ0IaxEeuXMNtL2LJ1Bw" name="Musica">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_gYHBcIaxEeuXMNtL2LJ1Bw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jJUk0IaxEeuXMNtL2LJ1Bw" name="clases.poo.ito">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nT2rkIaxEeuXMNtL2LJ1Bw" name="instrumentoMusical">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_A_j0wIayEeuXMNtL2LJ1Bw" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_L-5QIIayEeuXMNtL2LJ1Bw" name="tipo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RYX2QIayEeuXMNtL2LJ1Bw" name="antiguedad" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jj06EIayEeuXMNtL2LJ1Bw" name="usosxMusicos" visibility="private" type="_NaG0cIazEeuXMNtL2LJ1Bw" isUnique="false">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xtS5sIazEeuXMNtL2LJ1Bw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NaG0cIazEeuXMNtL2LJ1Bw" name="presentaciones">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SiXHsIazEeuXMNtL2LJ1Bw" name="musico" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jCerEIazEeuXMNtL2LJ1Bw" name="fecha" visibility="private" type="__qC94IayEeuXMNtL2LJ1Bw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="__qC94IayEeuXMNtL2LJ1Bw" name="java.time.LocalDate"/>
+</uml:Model>
